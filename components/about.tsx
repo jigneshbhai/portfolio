@@ -18,7 +18,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        Hello Guys!! I'm Final Year BE student In{' '}
+        Hello Guys!! I&apos;m Final Year BE student In{' '}
         <span className="font-medium">Computer Engineering</span>, I decided to pursue my
         passion for Full stack Development. I enrolled in a Development bootcamp and learned{' '}
         <span className="font-medium">full-stack web development</span>.{' '}
