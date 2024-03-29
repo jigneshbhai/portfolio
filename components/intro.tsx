@@ -56,10 +56,10 @@ const Intro = () => {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Jignesh.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span> {" "}
-        <span className="font-bold"> I enjoy{" "}</span>
-        building <span className="italic">WebSites & WebDesign</span>.<br/> My focus is{" "}
+        <span className="font-bold">Hello, I&apos;m Jignesh.</span> I&apos;m a{' '}
+        <span className="font-bold">full-stack developer</span> {' '}
+        <span className="font-bold"> I enjoy{' '}</span>
+        building <span className="italic">WebSites & WebDesign</span>.<br/> My focus is{' '}
         <span className="underline">MERN Stack</span>.
       </motion.h1>
        <motion.div
@@ -78,7 +78,7 @@ const Intro = () => {
             setTimeOfLastClick(Date.now());
           }}
         >
-          Contact me here{" "}
+          Contact me here{' '}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
@@ -87,7 +87,7 @@ const Intro = () => {
           href="/CV.pdf"
           download
         >
-          Download CV{" "}
+          Download CV{' '}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
 
@@ -118,4 +118,4 @@ const Intro = () => {
   )
 }
 
-export default Intro
+export default Intro;
